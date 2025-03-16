@@ -4,7 +4,8 @@ import { Button, Input, List, ListItem, ListItemText, Box } from "@mui/material"
 import { MdDelete } from "react-icons/md";
 import { IoMdAdd } from "react-icons/io";
 
-const SERVER_API_URL = import.meta.env.VITE_SERVER_API_URL || "http://localhost:8000";
+const SERVER_API_URL = import.meta.env.VITE_SERVER_API_URL || "https://todo-backend-sxj9.onrender.com";
+// const SERVER_API_URL = import.meta.env.VITE_SERVER_API_URL || "http://localhost:8000";
 
 function Task() {
   const [tasks, setTasks] = useState([]);
