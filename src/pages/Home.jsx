@@ -1,12 +1,14 @@
-import React from 'react'
-import Todo from './Todo'
+import React from "react";
+import Todo from "./Todo";
+import Task from "./Task";
 
 function Home() {
   return (
     <div>
-      <Todo />
+      {/* <Todo /> */}
+      <Task />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
